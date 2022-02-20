@@ -9,3 +9,9 @@ python app\app_cli.py -h
 ```commandline
 python -m unittest tests
 ```
+
+
+## Suggested Katas
+
+- [Scorekeeper](https://kata-log.rocks/score-keeper-kata)
+- [Roman Numerals](https://kata-log.rocks/roman-numerals-kata)
