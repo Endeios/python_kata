@@ -1,12 +1,8 @@
 import unittest
-import app
+from app.app import echo
 
 
 class MyTestCase(unittest.TestCase):
     def test_echo(self):
         data = "ojksflksdjflsdjfljsdlfjlsd"
-        self.assertEqual(data, app.echo(data))  # add assertion here
-
-
-if __name__ == '__main__':
-    unittest.main()
+        self.assertEqual(data, echo(data))  # add assertion here
